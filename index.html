@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+<!--Kodlar @Lazutti ye aittir çalmayın la gardaş-->
     <div id="game-container">
         <!-- Start Screen -->
         <div id="screen-start" class="screen active">
@@ -54,9 +54,10 @@
         <!-- Level 3: The Typist -->
         <div id="screen-level-3" class="screen">
             <h2 class="level-title">Seviye 3: Kusursuz Aşk</h2>
-            <p class="level-desc">Aşağıdaki cümleyi <u>HATASIZ</u> yaz.</p>
+            <div id="level3-timer">10</div>
+            <p class="level-desc">10 Saniye içinde <u>HATASIZ</u> yaz!</p>
             <div class="target-text-container">
-                <p id="target-text">Seni Dünyalar Kadar Seviyorum Eren</p>
+                <p id="target-text">Seni Dünyalar Kadar Seviyorum Aşkım</p>
             </div>
             <input type="text" id="input-love" placeholder="Buraya yaz..." autocomplete="off">
             <p id="error-msg" class="hidden">HATA! BAŞTAN YAZ! 😈</p>
@@ -87,6 +88,5 @@
 
     <script src="script.js"></script>
 </body>
-
 
 </html>
